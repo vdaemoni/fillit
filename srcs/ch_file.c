@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ch_file.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gmerrell <gmerrell@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vdaemoni <vdaemoni@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/07 18:24:55 by vdaemoni          #+#    #+#             */
-/*   Updated: 2019/12/23 16:22:23 by gmerrell         ###   ########.fr       */
+/*   Updated: 2020/01/29 17:21:28 by vdaemoni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/fillit.h"
+#include "fillit.h"
 
 static int	check_form(char *buf)
 {

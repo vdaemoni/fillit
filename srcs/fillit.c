@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   fillit.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gmerrell <gmerrell@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vdaemoni <vdaemoni@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/05 15:15:10 by vdaemoni          #+#    #+#             */
-/*   Updated: 2020/01/15 16:16:04 by vdaemoni         ###   ########.fr       */
+/*   Updated: 2020/01/29 17:21:25 by vdaemoni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/fillit.h"
+#include "fillit.h"
 
 static t_etra	*the_file(char *file)
 {

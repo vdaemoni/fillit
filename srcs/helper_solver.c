@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   solving_map.c                                      :+:      :+:    :+:   */
+/*   helper_solver.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gmerrell <gmerrell@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vdaemoni <vdaemoni@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/23 19:43:40 by gmerrell          #+#    #+#             */
-/*   Updated: 2020/01/15 17:19:36 by vdaemoni         ###   ########.fr       */
+/*   Updated: 2020/01/29 17:21:19 by vdaemoni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/fillit.h"
+#include "fillit.h"
 
 static int	is_inside(t_etra *mina, int size, char axis)
 {

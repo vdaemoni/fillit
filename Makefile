@@ -3,33 +3,33 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: gmerrell <gmerrell@student.42.fr>          +#+  +:+       +#+         #
+#    By: vdaemoni <vdaemoni@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/12/23 16:47:13 by gmerrell          #+#    #+#              #
-#    Updated: 2020/01/26 14:10:12 by vdaemoni         ###   ########.fr        #
+#    Updated: 2020/01/29 17:18:25 by vdaemoni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = fillit
-
+CC = gcc
+FLAGS = -Wall -Wextra -Werror
 LIBFT = libft
-
+LIBFT_INCLUDES = libft/includes
 SRCS = ./srcs/ch_file.c \
 	   ./srcs/fillit.c \
 	   ./srcs/helper_solver.c \
 	   ./srcs/lst_create.c \
 	   ./srcs/solver.c
 OBJS = $(SRCS:%.c=%.o)
-
-HEADER = ./includes/fillit.h
-
-FLAGS = -Wall -Wextra -Werror
+INCLUDES = includes
 
 all: $(NAME)
 
 $(NAME) : $(OBJS)
 		make -C $(LIBFT)
-		gcc $(FLAGS) -o $(NAME) $(SRCS) -I $(HEADER) -L. libft/libft.a
+		$(CC) $(FLAGS) -o $(NAME) $(OBJS) -L$(LIBFT) -lft
+%.o: %.c
+		$(CC) $(FLAGS) -I $(LIBFT_INCLUDES) -I $(INCLUDES) -o $@ -c $<
 
 clean :
 		/bin/rm -f $(OBJS)

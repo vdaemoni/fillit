@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   solver.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gmerrell <gmerrell@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vdaemoni <vdaemoni@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/22 21:50:32 by gmerrell          #+#    #+#             */
-/*   Updated: 2020/01/15 17:20:13 by vdaemoni         ###   ########.fr       */
+/*   Updated: 2020/01/29 17:21:01 by vdaemoni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/fillit.h"
+#include "fillit.h"
 
 static void	print_dash(char **dashboard, int size)
 {

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   lst_create.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gmerrell <gmerrell@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vdaemoni <vdaemoni@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/10 15:36:00 by vdaemoni          #+#    #+#             */
-/*   Updated: 2019/12/23 22:09:05 by gmerrell         ###   ########.fr       */
+/*   Updated: 2020/01/29 17:21:07 by vdaemoni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/fillit.h"
+#include "fillit.h"
 
 static void			to_left(t_etra *mine)
 {
